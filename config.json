@@ -1,0 +1,23 @@
+{
+  "inbounds": [{
+    "port": 443,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "d16404e2-6cfc-4dc3-9eab-b0d81c9691ae",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/taha"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
